@@ -9,11 +9,12 @@ print ("| | | (_| | || (__| | | |  __/ |")
 print ("|_|  \__,_|\__\___|_| |_|\___|_|")
 
 print  ("====================================")
-time.sleep(2.4)
-nomer = input("Masukan Nomer Target : ")
 time.sleep(2)
+nomer = input("Masukan Nomer Target : ")
+
 jumlah = int(input("Masukan Jumlah Spam  : "))
-time.sleep(3)
+time.sleep(2) 
+	
 headers = {
 "Host" : "eci.id",
 "Connection" : "keep-alive",
