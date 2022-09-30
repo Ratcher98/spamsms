@@ -1,4 +1,5 @@
 import time, requests,json,os
+os.system("clear") 
 
 
 print ("           _       _")
